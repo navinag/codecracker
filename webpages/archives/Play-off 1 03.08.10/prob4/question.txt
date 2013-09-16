@@ -1,0 +1,29 @@
+============
+ MEDIUM - 2
+============
+
+Rajat is fond of collecting coins, he decides to number some of his favourite coins distictively. Each coin can have a number between 1 and the value of the coin, both inclusive. Rajat wants to know the possible number of ways of numbering the coins.
+Print the number of ways Rajat can assign numbers to his coins, modulo 1,000,000,007. If it's impossible to assign distinct integers to the coins, print 0.
+
+Example : If the value of the coins are 4,4,4,4. All permutations of {1,2,3,4} are possible, so answer is 24.
+
+Input format :
+First line will contain the number of test cases N, followed by N lines containing the value of the favourite coins.
+
+Output format :
+Output N lines the number of ways Rajat can assign numbers to his favourite coins, modulo 1,000,000,007.
+
+Test Cases
+
+Input : 
+4
+5
+4 4 4 4
+5 8
+2 1 2
+
+Output
+5
+24
+35
+0

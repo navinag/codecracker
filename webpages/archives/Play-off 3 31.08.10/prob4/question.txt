@@ -1,0 +1,37 @@
+==================================
+Playoff 3 - MEDIUM II - STUPIDITY
+==================================
+
+Srinivas believes in the dictum - "K.I.S.S. - Keep it simple and stupid". Stupidity however, has different interpretations for different people. According to him, stupidity has unknowingly aided mankind for ages in becoming what it is today. In the planet of Abstractness, the king of the country of Stupidity, declares "It is not stupid to find out the number of integers within predefined tight bounds that can always be reached by each and every integer from the royal list by performing the logical operation F". Srinivas studied and found out that the operation F on integer k of royal list gives n*k where n is an arbitrary integer and '*' is the famous age old operation to yield mathematical product used on planet Earth, with integer k being the decimal equivalent of it counterpart in the royal list.
+
+Your task is not to be stupid.
+
+Input:
+First line contains integer T, the number of test cases. Each test case has three lines. The first line contains integer N, the number of integers in the royal list. Next line contains the N integers of royal list. The third line contains the upper and lower bounds of integers in that order for the requirement.
+
+Output:
+T lines, each containing the stupidity prevention count as demanded by the king for each test case.
+
+Example:
+Input:
+4
+3
+1 2 3
+5 15
+7
+1 2 4 8 16 32 64
+128 128
+15
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 49
+1 2000000000
+3
+1 1 1
+1 2000000000
+
+Output:
+2
+1
+0
+2000000000
+
+Note: Java users are to use public class Codecracker

@@ -1,0 +1,48 @@
+Installation
+==================
+
+Dependency:
+===========
+Python 2.6
+PHP
+Python bindings for Mysql
+JDK preferably SUN JDK, openJDK will also work
+GCC, G++
+
+Webpages:
+=========
+Copy all the files in webpages directory to the document root of your apache installation. Usually '/var/www/html' for Fedora or Red Hat, '/srv/www/htdocs' for openSUSE, '/var/www' for Ubuntu.
+
+Now copy the dbconnect.sample.php to dbconnect.php and change the variables accordingly. set $user as your Mysql database user, $password as the password of the Mysql database user $database as the name of the database and $host as the name of the mysql host, leave unchanged if the database is on the same machine.
+
+Also give write permission to chat.txt.
+If not sure what to do, run this command as root
+
+# chmod a+w chat.txt
+
+Now create the tables in database with the codecracker.sql file in the sql directory. If the name of the database is codecracker run this command to create the database
+
+$ mysql -u root -p codecracker < codecracker.sql
+
+and enter password when prompted.
+
+Configuration:
+==============
+Copy the codecracker directory in the config directory to /usr/local/ and give it write permission for the user who will run the codecracker.py. Anyways
+
+# chmod -R a+w /usr/local/codecracker 
+
+would do, though not recommended. Use questionnaire directory to put the questions. They are plain text files, prob1.txt for problem 1 and so on. Similarly put judge answer in judge_answer directory as ans1.txt and judge input in judge_input direcotry as in1.txt. Follow the same naming convention.
+
+Set the various configuration values in codecracker.conf file. They are self explanatory, they will be used by the engine.
+
+Main Engine:
+============
+The codecracker.py in src directory is the engine. The codecrakcer engine consists of a single python file. It uses codecracker.conf for the various configuration. It can be run from anywhere and by any user. However running as root is not recommended.
+
+Our program was written in Python 2.6. We do not know if it is compatible with other versions.
+For java, openJDK can be used however using SUN JDK is recommended. If you find Java not working search for java and javac in codecracker.py and replace with absolute paths.
+
+You can use update-alternatives to change the default java and javac if you have multiple JDK installed.
+
+

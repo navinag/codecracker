@@ -1,0 +1,41 @@
+=================
+ HARD PROBLEM 1
+=================
+									Existence
+
+The year is 4139 A.D. Humanity now resides in a planet named Kainan. So far there exists K settlements, some of them connected with one-way channels.
+
+The Chancellor of Kainan has decided to establish SWAT in his planet. The cost of building a SWAT station in each settlement is given. However, there may not be a need to build the same in every settlement. The only requirement is that every settlement must be reachable from some station using channels.
+
+As the next elections are approaching, the chancellor doesn't want to expose large SWAT expenses. Thus he wants the average cost of a built station to be as low as possible.
+
+
+INPUT: T, the number of test cases. Each test cases begins with K, the no. of settlements (maximum of 50). It is followed by a line containing K positive integers, where ith integer represents the cost of building SWAT station in the settlement i. This line is followed by a KxK matrix M, representing the channel layout. If M[i][j] is 'Y', implies that there is a channel from settlement i to j, and 'N' implies there is not.
+
+OUTPUT: T lines each printing the lowest average possible average cost (6 decimal places) of building SWAT stations in the given scenario case.
+
+EXAMPLE
+INPUT:
+3
+4
+5 6 7 8
+NYNN
+YNNN
+NNNY
+NNYN
+2
+10 5
+NY
+NN
+5
+34 22 25 43 12
+NYNNY
+YNNYN
+NNNYY
+NNNNN
+NNNNN
+
+OUTPUT:
+6.000000
+7.500000
+19.666667

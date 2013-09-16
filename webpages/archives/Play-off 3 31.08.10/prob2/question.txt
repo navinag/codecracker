@@ -1,0 +1,48 @@
+===============================
+Playoff 3 - EASY II - LPATTERN
+===============================
+
+Linux is everywhere, we had linux word now we bring to you linux pattern. A linux pattern is a pattern that satisfies the following conditions :
+	1) The patter contains only the characters 'L' and 'I' (both in uppercase)
+	2) Given a character in the pattern the chatacter to the top, bottom, left and right of it must be different.
+	3) The pattern has a rectangular shape.
+	4) The bottom left character must always be 'L'.
+
+You will be given the number of rows and columns in of the Linux pattern , you task it to generate that pattern. The first character of the last row will be the bottom left character.
+
+Input pattern :
+First line will contain the number of Test cases, T. Followed by T lines each line containing two integers R,C corresponding to number of rows and columns in the Linux pattern. (1 <= R,C <= 50)
+
+Output Pattern :
+For each test case output R lines corresponding to the contents of each row.
+
+Example
+Input
+4
+8 8
+1 20
+5 1
+5 13
+
+Output
+ILILILIL
+LILILILI
+ILILILIL
+LILILILI
+ILILILIL
+LILILILI
+ILILILIL
+LILILILI
+LILILILILILILILILILI
+L
+I
+L
+I
+L
+LILILILILILIL
+ILILILILILILI
+LILILILILILIL
+ILILILILILILI
+LILILILILILIL
+
+Note: Java users are to use public class Codecracker

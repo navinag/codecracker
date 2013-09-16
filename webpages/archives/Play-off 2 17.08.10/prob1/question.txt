@@ -1,0 +1,32 @@
+==========
+ EASY - 1
+==========
+
+Before Prof. Al-jabeir became renowned throughout the world for his 0!=0 paradox, he was an obsessive programmer. An important part of solving the paradox was to solve the problem:
+"Given a range of values in A and B with ith elements denoted by Ai and Bi respectively, determine an arrangement of elements of A without tampering those of B such that: S = A0*B0 + ... + An*Bn is minimum for n+1 elements in A and B"
+You are given an opportunity to solve this problem, a possibility which guarantees fame.
+Hint: Prof Al-jabeir says the problem is trivial.
+
+Input: First line contains the number of test cases 'T'. 3*T lines follow, (3*m-1)th line contains the number of integers, with (3*m)th line containing a series of integers in A and (3*m+1)th line containing those of B for mth test case.
+
+Output: T lines with mth line specifying the value S for the corresponding test case.
+
+Example:
+Input:
+3
+3
+1 1 3
+10 30 20
+5
+1 1 1 6 0
+2 7 8 3 1
+9
+5 15 100 31 39 0 0 3 26
+11 12 13 2 3 4 5 9 1
+
+Output:
+80
+18
+528
+
+Note : Java users use public class Codecracker.

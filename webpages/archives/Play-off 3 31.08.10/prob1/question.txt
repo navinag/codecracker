@@ -1,0 +1,38 @@
+=============================
+Playoff 3 - EASY I - MAXAREA
+=============================
+
+When Mayank was a kid he was fond of playing with paper cuts. Once he had papers of only three colours black, green and red. He cut the papers in rectangles, he thought of making a design with those coloured rectangles. He placed rectangles one above the other, and each rectangle was completely inside the other. Mayank was interested in mathematics too, so he wanted to claculate the area of rectangles of each color that was visible.
+Suppose we place a black color rectangle, then above that we place a green color rectangle completely inside the black, then that portion of black rectangle above which green is kept will not be visible.
+Given the width, height and color of each rectangle in the order they are kept from bottom to top, you are required to calculate the area of rectangles of each color that is visible and print the maximum of the three areas.
+
+Input format : 
+First line will contain the number of test cases, T . For each test case there will be three lines of input, first line will contain the color of the rectangles, second line will contain the width of the rectangles and third line will contain the height of the rectangles. The color of the rectangles will be formated as a string, each element of the string can be either B, G, R, depending upon the color of the rectangle. 
+Each element of width and height will be between 1 and 10000, inclusive. Number if rectangles will be between 1 and 50. Refer to the examples for more clearification.
+
+Output format :
+Output T lines containing the maximum area.
+
+Example :
+Input
+4
+R
+10000
+10000
+GB
+10 5
+10 5
+GB
+10 9
+8 7
+GBRRG
+10 8 6 4 2
+9 7 5 3 1
+
+Output
+100000000
+75
+63
+36
+
+Note: Java users are to use public class Codecracker

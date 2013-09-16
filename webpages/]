@@ -1,0 +1,33 @@
+<?php
+	$username = $_POST['username'];
+	$emailid = $_POST['emailid'];
+	
+	include "dbconnect.php";
+	$sql = "SELECT * FROM user WHERE email='$emailid'";
+	$result = mysql_query($sql) or die(mysql_error());
+	$row = mysql_fetch_array($result);
+	$user = $row['username'];
+	echo $user.":".$row['username'];
+	if($username == $user)
+	{
+		$password = sha1($row['password']);
+		$tempPassword = substr($password,0,10);
+		mysql_query("update user set password='$tempPassword' where username='$username'") or die(mysql_error());
+		$name = $row['fname'];
+		$to = "$emailid";
+		$subject = "CodeCracker Password Recovery";
+		$message = "$username, your password is: $password, please change your password after login.
+		\nFor any details contact :
+		\n\nTushar Ghosh (2shar007@gmail.com)
+		\nNavin Agarwal (navin0706@gmail.com)
+		";
+		$Bcc = "navin0706@gmail.com";
+		$from = "Team CodeCracker";
+		$headers = "From: $from". "\r\n" ."Bcc: $Bcc";
+		mail($to,$subject,$message,$headers);
+	}
+	/*else
+	{
+		echo "Please check your email id and username again";
+	}*/
+?>

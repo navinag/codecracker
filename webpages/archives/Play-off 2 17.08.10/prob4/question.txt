@@ -1,0 +1,31 @@
+=============
+ MEDIUM - 2
+=============
+
+Kunal has purchased a new land. The land is rectangular, he wants to build rectangular rooms as said by an astrologer. Kunal wants to know the total number of rectangular rooms (NOT counting sqares) that can be found on this land. You are required to help Kunal in this task.
+
+For example, width=3, length=3 : there are 4 2x3, 6 1x3, and 12 1x2 rectangular rooms can be found on this room. Total 4+6+12=22 rectangular rooms possible.
+
+Input format
+First line will contain the the number of test cases N(less than 100), followed by N lines containing the width and length. Both width and length will be between 1 and 1000.
+
+Output format
+Containing N lines printing the desired output
+
+Example
+Input:
+5
+3 3
+5 2
+10 10
+1 1
+592 964
+
+Output:
+22
+31
+2640
+0
+81508708664
+
+Note : Java users please use public class Codecracker.

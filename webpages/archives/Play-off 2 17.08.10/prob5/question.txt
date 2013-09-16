@@ -1,0 +1,31 @@
+==========
+ HARD - 1
+==========
+
+A scientist has designed a time machine, some people wants to travel to past. Suppose two people board the time machine and they travel back to a certain time. The time machine is not that perfect, it cant remember the path travelled, it has to be operated by a person,so a person has to travel back to present, to bring the people in the same time first two people had travelled to. 
+Time taken by the time machine depends on certain factors which in turn depends on people travelling. You will be given the time that the "time machine" would take for travelling that person in time. Not more than two persons can travel in time machine simultaneously, and for travelling two persons time taken will be the maximum of their individual times.
+You are appointed to facilitate people in travelling through time. Given the time required by each person in travelling you are to find the minimum  time required for all to travel to that time.
+For instance lets say that people take 1,2,5,10 hours to travel in time. In this instacne the answer is 17, person 1 and 2 travel in time taking 2 hours, then person 1 comes back spending 1 hour, then person 3 and 4 travel in time taking 10 hours. Then person 2 travels back spending 2 hours, finally person 1 and 2 travel by time machine taking 2 hours. This give a total of 2+1+10+2+2=17 hours spent.
+
+Input format 
+First line of input will contain the number of test cases, T (T<=100). Followed by T lines, starting with the number of people N, wanting to travel by time machine. Followed by N numbers seperated by white spaces. (1<=N<=20). Each element of time will be between 1 and 100, inclusive.
+
+Output format
+Output T lines printing the desired output.
+
+Example
+Input:
+4
+4 1 2 5 10
+5 1 2 3 4 5
+1 100
+6 1 2 3 50 99 100
+
+Output:
+17
+16
+100
+162
+
+
+Note : Java users please use public class Codecracker.

@@ -1,0 +1,16 @@
+#dont see this line
+
+number of easy questions=2
+number of medium questions=2
+number of hard questions=1
+points per easy question=100
+points per medium question=250
+points per hard question=550
+mysql server=localhost
+mysql user=dbuser
+mysql password=dbpass
+mysql database=codecracker
+number of input threads=3
+number of output threads=1
+
+#end of file

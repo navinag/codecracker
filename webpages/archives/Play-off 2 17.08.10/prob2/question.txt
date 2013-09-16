@@ -1,0 +1,31 @@
+==========
+ EASY - 2
+==========
+
+The great pirate Khurafati and his sidekick Bansi-bajaiyya are stranded alone in a treasure island. Khurafati managed to find a map of the island with an X marking a spot on the island, and a set of instructions. Each instruction is of the form "walk A steps in the direction B" with A being the number of steps, and B denoting the direction. If you start at the X and follow the instructions in the given order, at the end you will arrive at the location where the treasure is buried.You have to find the location of the treasure, and return the straight-line distance (in steps) from the place where you start to the place where the treasure is buried.
+
+Each direction in directions will be one of the eight basic directions on a compass, viz., "NORTH", "SOUTH", "EAST", "WEST", "NORTHEAST", "NORTHWEST", "SOUTHEAST" and "SOUTHWEST
+
+Input: First line contains the number of test cases 'T'. 3*T lines follow with (2*m-1)th line containing the number of instructions, (2*m)th line containing a series of integers and (2*m+1)th line containing a series of directions for mth test case. The ith integer in (2*m)th line corresponds to the number of steps to be taken in the ith direction mentioned in (2*m+1)th line.
+
+Output: T lines with mth line specifying the straight line distance (in steps) for the mth test case. Print upto 9 decimal places.
+
+Example:
+Input:
+3
+1
+2
+NORTHWEST
+3
+34 48 34
+NORTH SOUTHWEST EAST
+4
+2 2 2 1
+NORTH NORTH NORTH NORTHWEST
+
+Output:
+2.000000000
+0.083261121
+6.744277676
+
+Note : Java users please use public class Codecracker.

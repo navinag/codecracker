@@ -1,0 +1,35 @@
+==============================
+Playoff 3 - HARD I - HORIBBLE
+==============================
+
+You have been invited to the Bhool bhulaiyya Mahal of Mr. Taj Neverlandabad. The mahal has been made in such a way so that the light in each room is controlled by a switch that might be located in a different room. Initially, the light in the first room is on, and the lights in all the other rooms are off.
+
+Taj is currently not in town and you are currently in the first room and the fiesta is being organised in the last room (Neverlandabadis are nocturnal people; they prefer to cook in the dark). Your task is to reach the last room with all the lights in the house off except the light in the last room. You can move directly from any room to any other room, and you can turn off any of the switches that are located in your current room. However, you may never enter a dark room or turn off the light in your current room. For your convenience, sources have found out that the mahal contains anywhere between 2-16 rooms and Neverlandabadis love counting from 0.
+
+A move is defined as traversing from one room to another. You are to inform Taj of the number of moves that it took to complete your task or declare it as "HORRIBLE" otherwise.
+
+Input:
+First line contains integer T, the number of test cases. Each test case is made up of two lines, with first line containing integer N. Next line contains N space separated integers, each describing the location of light switches. The ith integer is the room number having the switch for room i.
+
+Output:
+T lines, each containing the minimum number of moves required, or "HORRIBLE" in case task is impossible.
+
+Example:
+Input:
+4
+2
+0 1
+3
+1 2 0
+6
+4 4 3 0 5 2
+13
+7 11 1 12 6 3 0 2 6 0 0 5 9
+
+Output:
+HORRIBLE
+3
+7
+15
+
+Note: Java users are to use public class Codecracker

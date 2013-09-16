@@ -1,0 +1,31 @@
+============
+ MEDIUM-1
+============
+
+An astrologer has suggested Shreyank to number his house with digits whose multiples sum up to another multiple of that number. Like 3, if you take any multiple of 3, 118*3=354 and 3+5+4=12,which is a multiple of 3. Such digits are called holy digits. Shreyank being an engineer wanted to satisfy himself and the astrologer, he thought if a digit is not holy in base 10 it could be holy in another base.
+
+Shreyank has appointed you to help him in this task. Given a base you are required to print all the holy digits in that base.
+
+Note : For checking the digit to be holy multiples fewer than 4 digits only need to be checked. In base 10 multiples greater than 999 need not be considered. (1 and 0 are not considered holy).
+
+Input format
+First line will contain the the number of test cases N(less than 100), followed by N lines containing base B (3<=B<=30).
+
+Output format
+Output N lines containing holy digits in increasing order, seperated by spaces, and a space after the last digit.
+
+Example
+Input : 
+4
+10
+3
+9
+26
+
+Output : 
+3 9
+2
+2 4 8
+5 25
+
+Note : Java users please use public class Codecracker.

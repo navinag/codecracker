@@ -1,0 +1,17 @@
+==============
+Easy Problem 1
+==============
+
+Write to program to input a number 'n' and print 'linux rocks' n times.
+
+Example:
+
+Input:
+2
+
+Output:
+linux rocks
+linux rocks 
+
+NOTE: JAVA coders should use 'public class Main', otherwise their codes WILL NOT COMPILE. Use the exact phrase.
+

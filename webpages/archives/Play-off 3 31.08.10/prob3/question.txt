@@ -1,0 +1,25 @@
+=====================
+MEDIUM - I - CRUELPH
+=====================
+
+Have you heard of Almen-il-rah of Thebes.Dr Zain Hussain of Archaeological Society of Egypt, said that "Legend has it that he was one of the finest architects and builders of his time regarded even in the far east. He was made the royal architect of the then pharoah Akhenatun. He impressed by him, ordered him to build a pyramid that would stand the test of time, making him the greatest pharoah ever." Now the problem is Almen-il-rah is not good at mathematics, and wants your help to decide what would be the least number of stones required to build the pyramid. For optimality, the pharoah's scientific advisor told that the shape of the pyramid should be a regular tetrahedron. Also,since the pharoah is a worshipper of the sun god 'Ra', he wants his chamber to be tetrahedronal to reflect all the sun's power which will provide him energy for life after death. Also the pharoah's chamber in no way can should have its apex cross half the height of the pyramid. Also the height of the chamber should be atleast double the height of the casket in which the pharoah is rested. Creation of passages dont decrease requirements of stone as they are required to create entrances  Assume that all stones have same height, pharoah's height is measured in terms of stone height, For height 'n' of pyramid,'n' levels of stones are required. The fact that ancient Egyptians only used integers as numbers in all operations including division might also be useful.
+Oh, the pharoah has sermoned, "Almen-il-rah will be executed if he fails to deliver". So his life is in your hands.
+
+INPUT:
+No. of test cases,t, 1<=t<=1000,Then t lines follow each containg two positive integers h and n separated by a space. Here h is the height of casket of pharoah (1<=h<=200), yeah you got it right Pharoahs used to be really really tall, and n is the height of the pyramid(4*h<=n<=1000).
+
+OUTPUT:
+t lines each containg a positive integer 's' giving the number of stones required for the 't'th case and they should be prefixed by the case number 
+
+EXAMPLE:
+INPUT:
+2
+4 9
+99 435
+
+
+OUTPUT:
+Case 1: 45
+Case 2: 12500170
+
+Note: Java users are to use public class Codecracker
